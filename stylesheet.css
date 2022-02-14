@@ -4,8 +4,9 @@ html, body {
 
 body {
   background-size: cover;
+  background-color: black;
   font-family: "Segoe UI", Arial, sans-serif;
-  color: #eee;
+  color: rgb(255, 255, 255);
   text-align: center;
   overflow: hidden;
 }
