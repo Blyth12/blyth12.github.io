@@ -1,4 +1,4 @@
-html { overflow-y: scroll; }
+html { overflow-y: auto; }
 html, body {
   height: 100%;
 }
@@ -8,7 +8,7 @@ body {
   background-color: rgb(255, 255, 255);
   font-family: "Segoe UI", Arial, sans-serif;
   color: rgb(0, 0, 0);
-  text-align: center;
+  text-align: left;
   overflow: hidden;
 }
 
@@ -44,12 +44,15 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
+
+
 /*Header*/
 
 .topnav {
   background-color: rgb(47, 78, 136);
   overflow: hidden;
   position: sticky;
+  border-right: 0px solid #ccc;
 }
 
 .topnav a {
