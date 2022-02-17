@@ -52,7 +52,7 @@ a:hover {
   background-color: rgb(47, 78, 136);
   overflow: hidden;
   position: sticky;
-  border-right: 0px solid #ccc;
+  margin: 0px;
 }
 
 .topnav a {
