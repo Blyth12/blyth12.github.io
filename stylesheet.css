@@ -43,7 +43,12 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
-
+.box {
+  background-color: lightgrey;
+  border: 5px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px;
+}
 
 /*Header*/
 
