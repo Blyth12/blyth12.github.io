@@ -43,11 +43,34 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
-.box {
+#box {
   background-color: lightgrey;
   border: 5px solid rgb(0, 0, 0);
   padding: 50px;
   margin: 20px;
+}
+
+#zone {
+  height: 160px;
+  margin: 0 0 16px;
+  background: #fff;
+  box-shadow: 0 0 5px -1px inset, 0 0 5px #fff;
+  border-radius: 8px;
+  transition: box-shadow .5s;
+}
+
+#zone:hover {
+  box-shadow: 0 0 5px -1px inset, 0 0 5px #fff, 0 0 5px 1px rgb(0, 0, 0) 
+inset;
+}
+
+#counter {
+  transition: opacity .5s;
+}
+
+#counter::before {
+  content: '';
+  font-weight: normal;
 }
 
 /*Header*/
