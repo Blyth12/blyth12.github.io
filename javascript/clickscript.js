@@ -1,7 +1,7 @@
 var started, resetTimeoutHandle, resetTimeout = 1000,
-    container = StyleSheet.getElementById('container'),
-    counter = StyleSheet.getElementById('counter'),
-    zone = StyleSheet.getElementById('zone'),
+    container = document.getElementById('container'),
+    counter = document.getElementById('counter'),
+    zone = document.getElementById('zone'),
     clicks = 0;
 
 zone.onseclect = zone.onselectstart = function() {
