@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 }
 
-h1, h3 {
+h1, h2 {
   font-weight: normal;
 }
 
@@ -21,7 +21,7 @@ h1 {
   margin: 0;
 }
 
-h3 {
+h2 {
   font-size: 2em;
   margin-top: 10px;
 }
@@ -43,11 +43,11 @@ a:hover {
   transform: translate(-50%, -50%);
 }
 
-#box {
+#container {
   background-color: lightgrey;
   border: 5px solid rgb(0, 0, 0);
-  padding: 50px;
-  margin: 20px;
+  padding: 10px;
+  margin: 10px;
 }
 
 #zone {
@@ -55,7 +55,7 @@ a:hover {
   margin: 0 0 16px;
   background: #fff;
   box-shadow: 0 0 5px -1px inset, 0 0 5px #fff;
-  border-radius: 8px;
+  border-radius: 1px;
   transition: box-shadow .5s;
 }
 
