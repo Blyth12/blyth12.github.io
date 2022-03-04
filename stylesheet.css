@@ -44,8 +44,8 @@ a:hover {
 }
 
 #container {
-  background-color: lightgrey;
-  border: 5px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(0, 0, 0);
   padding: 10px;
   margin: 10px;
 }
@@ -67,7 +67,6 @@ inset;
 #counter {
   transition: opacity .5s;
 }
-
 #counter::before {
   content: '';
   font-weight: normal;
